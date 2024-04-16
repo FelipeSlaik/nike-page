@@ -1,0 +1,133 @@
+/* ============= RESET CSS ================ */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+    background: #f1f1f1;
+}
+/* ================================== */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px  20px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+}
+.nav-container{
+    width: 50%;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item{
+    list-style: none;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #151823;
+}
+
+.icon-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    color: #151823;
+}
+.icon-cart i{
+cursor: pointer;
+}
+.logo img{
+    width: 80px;
+    height: 30px;
+}
+
+/*FIM DO NAV MENU*/
+main{
+margin-top: 50px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-info{
+    display: flex;
+}
+
+.info{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-right: 10px;
+}
+
+.info-title{
+    color: #000;
+    font-weight: 700;
+    line-height: 71px;
+    font-size: 61px;
+    margin-left: 4.5rem;
+}
+
+.info-text{
+    color: rgba(0, 0, 0, 50%);
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.btn{
+    width: 180px;
+    height: 35px;
+    margin-right: 4.6rem;
+    background: #151823;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #f1f1f1;
+    color: #000;
+    border: 2px solid #000;
+    box-shadow: 0 0 5px #000;
+}
+
+
+.info-img{
+    background-image: linear-gradient(to bottom, #fdea43 60%, #10121e 40%);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-img img{
+    width: 420px;
+    transition: transform .5s ease;
+}
+.info-img img:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4) rotate(4.5deg);
+}
